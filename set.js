@@ -11,3 +11,7 @@ console.log(times.has('Vasco'))
 console.log(times.has('vasco'))
 times.delete('vasco')
 console.log(times.has('vasco'))
+
+const nomes = ['carolina', 'thiago', 'julia', 'thiago']
+const nomeSet = new Set(nomes)
+console.log(nomeSet)
